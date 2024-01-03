@@ -7,22 +7,31 @@
     <title>AI Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of a joke"
-          autocomplete="off"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>The joke will go here.</div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to the AI Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of a joke"
+            autocomplete="off"
+            autofocus
+            required
+            class="joke-input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="joke">The joke will go here.</div>
+      </main>
+      <footer>
+        <a href="https://github.com/meli-mac?tab=repositories" target="_blank"
+          >Open-sourced code</a
+        >
+        by Melissa Machado
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>

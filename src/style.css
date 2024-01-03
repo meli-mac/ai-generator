@@ -1,0 +1,78 @@
+body {
+  background-color: #c2d9ff;
+  text-align: center;
+}
+
+a {
+  color: #190482;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #190482;
+}
+
+form {
+  padding: 30px;
+  background-color: #8e8ffa;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.joke-input {
+  padding: 16px;
+  border: 1px solid #190482;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #190482;
+}
+
+.submit-button {
+  margin-left: 10px;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+  background-color: #190482;
+  color: #c2d9ff;
+}
+
+.submit-button:hover {
+  background-color: #c2d9ff;
+  color: #190482;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.joke {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-radius: 12px;
+  border-left: 3px solid #190482;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
