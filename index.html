@@ -14,19 +14,22 @@
         <h1>Welcome to the AI Generator</h1>
       </header>
       <main>
-        <form id="joke-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of a joke"
-            autocomplete="off"
-            autofocus
-            required
-            class="joke-input"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="joke" id="joke"></div>
+        <div class="form-container">
+          <form id="joke-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a joke"
+              autocomplete="off"
+              autofocus
+              required
+              class="joke-input"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris, Cheese</div>
+        </div>
+        <div class="joke hidden-display" id="joke"></div>
       </main>
       <footer>
         <a href="https://github.com/meli-mac?tab=repositories" target="_blank"
